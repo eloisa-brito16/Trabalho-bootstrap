@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.paragrafo-progress{
+    margin-left: 50px;
+}
+
+.paragrafo-progress1{
+    font-size: 30px;
+}
+
+.pg{
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+.pg2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.background-progress{
+    background-color: rgb(182, 103, 255);
+    border-radius: 5px;
+}
+.background-progress2{
+    background-color: rgb(255, 103, 225);  
+    color: black; 
+    border-radius: 5px;
+}
+.background-progress3{
+    background-color: rgb(103, 199, 255);
+    border-radius: 5px;
+}
+.background-progress4{
+    background-color: rgb(103, 255, 209);
+    color: black;
+    border-radius: 5px;
+}
+.background-progress5{
+    background-color: rgb(255, 103, 106);
+    border-radius: 5px;
+}
