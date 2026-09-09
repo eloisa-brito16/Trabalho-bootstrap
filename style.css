@@ -5,11 +5,25 @@
     margin: 0;
 }
 
+.h1txt{
+    margin-left: 50px;
+}
+
+.h1{
+    background-color: rgb(255, 182, 219);
+    margin-left: 430px;
+    margin-right: 460px;
+    margin-top: 10px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+}
+
 .paragrafo-progress{
     margin-left: 50px;
 }
 
 .paragrafo-progress1{
+    margin-left: 50px;
     font-size: 30px;
 }
 
@@ -44,3 +58,49 @@
     background-color: rgb(255, 103, 106);
     border-radius: 5px;
 }
+
+
+.button{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    margin-left: 50px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+.secao {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 80px 20px;
+}
+
+.secao h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.secao p {
+    font-size: 1.2rem;
+}
+
+.nav-pills .nav-link {
+    color: white;
+    margin-left: 5px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
