@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinners - Bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container mt-5">
+
+        <h1>Spinners</h1>
+
+        <p>
+            Spinners são componentes do Bootstrap utilizados para indicar
+            que uma ação está sendo processada ou que um conteúdo está carregando.
+        </p>
+
+        <hr>
+
+        <h2>Spinner básico</h2>
+
+        <p>
+            O spinner abaixo utiliza a classe
+            <code>spinner-border</code> do Bootstrap.
+        </p>
+
+
+<div class="spinner-border" role="status">
+    <span class="visually-hidden">Carregando...</span>
+</div>
+
+<h2 class="mt-5">Spinner crescente</h2>
+
+<p>
+    O spinner crescente utiliza a classe
+    <code>spinner-grow</code>.
+</p>
+
+<div class="spinner-grow" role="status">
+    <span class="visually-hidden">Carregando...</span>
+</div>
+
+<h2 class="mt-5">Cores dos Spinners</h2>
+
+<p>
+    Os Spinners podem receber diferentes cores utilizando as classes
+    de texto do Bootstrap.
+</p>
+
+<div class="spinner-border text-primary" role="status"></div>
+<div class="spinner-border text-success" role="status"></div>
+<div class="spinner-border text-danger" role="status"></div>
+<div class="spinner-border text-warning" role="status"></div>
+<div class="spinner-border text-info" role="status"></div>
+
+<h2 class="mt-5">Tamanhos dos Spinners</h2>
+
+<p>
+    Também é possível alterar o tamanho dos Spinners utilizando
+    classes específicas do Bootstrap.
+</p>
+
+<div class="spinner-border spinner-border-sm text-primary" role="status">
+    <span class="visually-hidden">Carregando...</span>
+</div>
+
+<div class="spinner-border text-primary" role="status">
+    <span class="visually-hidden">Carregando...</span>
+</div>
+
+<div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+    <span class="visually-hidden">Carregando...</span>
+</div>
+
+<h2 class="mt-5">Spinner em botões</h2>
+
+<p>
+    Spinners também podem ser utilizados dentro de botões
+    para indicar que uma ação está sendo processada.
+</p>
+
+<button class="btn btn-primary" type="button" disabled>
+    <span class="spinner-border spinner-border-sm" role="status"></span>
+    Carregando...
+</button>
+
+<button class="btn btn-success" type="button" disabled>
+    <span class="spinner-grow spinner-grow-sm" role="status"></span>
+    Processando...
+</button>
+
+<h2 class="mt-5">Como funcionam os Spinners?</h2>
+
+<p>
+    Os Spinners do Bootstrap são componentes prontos que utilizam
+    classes CSS para criar animações de carregamento.
+</p>
+
+<h3>Principais classes</h3>
+
+<ul>
+    <li>
+        <code>spinner-border</code> — cria um Spinner com uma borda giratória.
+    </li>
+
+    <li>
+        <code>spinner-grow</code> — cria um Spinner com efeito de crescimento.
+    </li>
+
+    <li>
+        <code>spinner-border-sm</code> — cria uma versão menor do Spinner de borda.
+    </li>
+
+    <li>
+        <code>spinner-grow-sm</code> — cria uma versão menor do Spinner crescente.
+    </li>
+
+    <li>
+        <code>text-primary</code>, <code>text-success</code>,
+        <code>text-danger</code> etc. — permitem alterar a cor.
+    </li>
+</ul>
+
+<h2 class="mt-5">Exemplo prático</h2>
+
+<p>
+    Um Spinner pode ser utilizado enquanto o site aguarda uma resposta
+    ou realiza alguma tarefa.
+</p>
+
+<div class="border rounded p-4 text-center">
+    <p>Carregando informações...</p>
+
+    <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Carregando...</span>
+    </div>
+</div>
+
+<div class="mt-5 mb-5">
+    <a href="../progress.html" class="btn btn-secondary">
+        ← Voltar para Progress
+    </a>
+</div>
+
+</div>
+
+</body>
+</html>
